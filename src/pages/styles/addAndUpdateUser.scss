@@ -1,0 +1,63 @@
+%forInputs {
+	margin: 5px;
+	padding: 10px;
+}
+
+.contact-inputs-add,
+.contact-inputs-edit {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+
+	input {
+		width: 70%;
+		@extend %forInputs;
+		font-size: 16px;
+		&:focus {
+			outline: 2px dotted rgb(89, 89, 215);
+			font-size: 20px;
+		}
+	}
+	select {
+		width: 74%;
+		padding: 10px;
+		margin: 5px;
+		font-size: 16px;
+
+		&:focus {
+			outline: 2px dotted rgb(89, 89, 215);
+		}
+	}
+	button {
+		width: 74%;
+		@extend %forInputs;
+		background-color: rgb(161, 161, 255);
+		color: white;
+		border: 1px solid rgb(112, 112, 112);
+		&:hover {
+			transition: 0.5s;
+			background-color: rgb(89, 89, 215);
+			box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+		}
+	}
+}
+
+.btn-back {
+	@extend %forInputs;
+	padding: 4px;
+	width: 10%;
+	background-color: rgb(197, 83, 83);
+	border: 1px solid rgb(112, 112, 112);
+
+	color: white;
+	&:hover {
+		transition: 0.5s;
+		background-color: rgb(197, 83, 83);
+		box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.75);
+	}
+}
+
+h1 {
+	margin: 5px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

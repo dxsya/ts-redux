@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "name": "fghjasdasd",
+      "email": "fhgjkasdasda",
+      "contact": "gfhj123asdasd123213",
+      "relationship": "friend",
+      "id": 1
+    },
+    {
+      "name": "fghj",
+      "email": "fhgjk",
+      "contact": "gfhj",
+      "relationship": "family",
+      "id": 3
+    },
+    {
+      "name": "123zxc",
+      "email": "412zxc",
+      "contact": "1231zxc",
+      "relationship": "work",
+      "id": 4
+    },
+    {
+      "name": "42141",
+      "email": "123123",
+      "contact": "1231231",
+      "relationship": "friend",
+      "id": 5
+    },
+    {
+      "name": "asdasd",
+      "email": "asda",
+      "contact": "asdas",
+      "relationship": "work",
+      "id": 6
+    },
+    {
+      "name": "asdasd",
+      "email": "asdasd",
+      "contact": "asdasd",
+      "relationship": "friend",
+      "id": 7
+    },
+    {
+      "name": "1231231",
+      "email": "1231231",
+      "contact": "213121",
+      "relationship": "work",
+      "id": 8
+    }
+  ]
+}

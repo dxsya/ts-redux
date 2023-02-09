@@ -1,0 +1,70 @@
+%borders {
+	border: 1px solid black;
+}
+%actionBtns {
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	margin: 0px 4px;
+	border-radius: 4px;
+}
+%searchFilter {
+	padding: 5px;
+	margin-right: 20px;
+	&:focus {
+		outline: 2px dotted rgb(89, 89, 215);
+	}
+}
+
+.btn-add-contact {
+	padding: 7px 18px;
+	margin: 5px;
+	color: white;
+	background-color: rgb(119, 112, 221);
+	border: none;
+	border-radius: 4px;
+	&:hover {
+		background-color: rgb(70, 97, 232);
+		transition: 0.5s;
+		box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+	}
+}
+
+table {
+	margin: 20px 5px;
+	@extend %borders;
+}
+
+td,
+th {
+	@extend %borders;
+	padding: 12px;
+}
+
+.btn-delete-contact {
+	background-color: rgb(254, 101, 101);
+	@extend %actionBtns;
+	&:hover {
+		background-color: rgb(255, 44, 44);
+		transition: 0.5s;
+		box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+	}
+}
+
+.btn-edit-contact {
+	background-color: rgb(101, 178, 254);
+	@extend %actionBtns;
+	&:hover {
+		background-color: rgb(28, 141, 254);
+		transition: 0.5s;
+		box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+	}
+}
+
+.search-filter-box {
+	margin: 5px;
+	input,
+	select {
+		@extend %searchFilter;
+	}
+}
